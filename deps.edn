@@ -12,4 +12,10 @@
 
   :cider
   {:extra-paths ["resources"]
-   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.0"}}}}}
+   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.0"}}}
+
+  
+  :figwheel
+  {:extra-paths ["resources"]
+   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.0"}}
+   :main-opts ["-m figwheel.main -b dev -r"]}}}

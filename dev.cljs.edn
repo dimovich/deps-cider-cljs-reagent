@@ -1,7 +1,6 @@
 ^{ ;;:css-dirs ["resources/public/css"]
   :watch-dirs ["src/cljs"]
-  ;;:open-url false
-  }
+  :open-url false}
 {:main myapp.core
  :output-to "resources/public/js/main.js"
  :output-dir "resources/public/js/out"
