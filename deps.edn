@@ -14,7 +14,7 @@
   {:extra-paths ["resources"]
    :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}}
 
-  
+
   :figwheel
   {:extra-paths ["resources"]
    :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}
