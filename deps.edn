@@ -12,16 +12,11 @@
 
   :cider
   {:extra-paths ["resources"]
-   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}}
+   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}
+   :main-opts ["-i watch.clj"]}
 
   
   :figwheel
-  {:extra-paths ["resources"]
-   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}
-   :main-opts ["-m figwheel.main -b dev -r"]}
-
-  
-  :fwatch
   {:extra-paths ["resources"]
    :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}
    :main-opts ["-i watch.clj"
