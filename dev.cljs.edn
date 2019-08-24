@@ -1,5 +1,5 @@
-^{ ;;:css-dirs ["resources/public/css"]
-  :watch-dirs ["src/cljs"]
+^{:watch-dirs ["src/cljs"]
+  ;;:css-dirs ["resources/public/css"]
   ;;:open-url false
   }
 {:main myapp.core

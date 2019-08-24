@@ -1,4 +1,4 @@
-{:paths ["src/cljs"]
+{:paths ["src/cljs" "src/clj"]
  
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
         org.clojure/clojurescript {:mvn/version "1.10.520"}
@@ -18,4 +18,11 @@
   :figwheel
   {:extra-paths ["resources"]
    :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}
-   :main-opts ["-m figwheel.main -b dev -r"]}}}
+   :main-opts ["-m figwheel.main -b dev -r"]}
+
+  
+  :fwatch
+  {:extra-paths ["resources"]
+   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.3"}}
+   :main-opts ["-i watch.clj"
+               "-m figwheel.main -b dev -r"]}}}
