@@ -1,3 +1,5 @@
-In Emacs, open `src/cljs/myapp/core.cljs` and type <b>`C-c C-x j s`</b> to start Figwheel.
+To start Figwheel, open `src/cljs/myapp/core.cljs` in Emacs and type <b>`C-c C-x j s`</b>
 
-For production, run `clj -A:prod`
+Or start from a terminal by typing <b>`clj -A:figwheel`</b>
+
+For production run <b>`clj -A:prod`</b>
