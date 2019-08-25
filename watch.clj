@@ -2,9 +2,7 @@
          '[clojure.tools.namespace.repl :as nr])
 
 
-
 (def clj-paths ["src/clj"])
-
 
 
 (defn watch! []
