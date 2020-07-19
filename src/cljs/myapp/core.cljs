@@ -1,5 +1,5 @@
 (ns ^:figwheel-hooks myapp.core
-  (:require [reagent.core :as r]))
+  (:require [reagent.dom :as rd]))
 
 
 (defn my-app []
@@ -7,8 +7,8 @@
 
 
 (defn ^:after-load reload []
-  (r/render [my-app]
-            (.getElementById js/document "app")))
+  (rd/render [my-app]
+             (.getElementById js/document "app")))
 
 
 (defn init! []
