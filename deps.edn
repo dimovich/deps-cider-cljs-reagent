@@ -2,7 +2,7 @@
  
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
         org.clojure/clojurescript {:mvn/version "1.10.773"}
-        reagent {:mvn/version "0.10.0"}}
+        reagent {:mvn/version "1.0.0"}}
 
  
  :aliases
@@ -12,10 +12,10 @@
 
   :cider
   {:extra-paths ["resources"]
-   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.11"}}}
+   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.12"}}}
 
   
   :figwheel
   {:extra-paths ["resources"]
-   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.11"}}
+   :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.12"}}
    :main-opts ["-m figwheel.main -b dev -r"]}}}
