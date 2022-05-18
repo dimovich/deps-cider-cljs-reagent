@@ -1,6 +1,5 @@
 ^{ ;;:css-dirs ["resources/public/css"]
-  :watch-dirs ["src/cljs"]
-  :open-url-wait-ms 2000}
+  :watch-dirs ["src/cljs"]}
 {:main myapp.core
  :output-to "resources/public/js/main.js"
  :output-dir "resources/public/js/out"
