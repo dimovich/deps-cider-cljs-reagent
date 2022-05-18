@@ -1,7 +1,7 @@
 {:paths ["src/cljs"]
  
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
-        org.clojure/clojurescript {:mvn/version "1.11.4"}
+        org.clojure/clojurescript {:mvn/version "1.11.54"}
         reagent/reagent {:mvn/version "1.1.1"}
         cljsjs/react {:mvn/version "17.0.2-0"}
         cljsjs/react-dom {:mvn/version "17.0.2-0"}}
