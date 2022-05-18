@@ -2,16 +2,14 @@
   (:require [reagent.dom :as rd]))
 
 
-(defn my-app []
+(defn myapp []
   [:div "Hello World!"])
 
 
 (defn ^:after-load reload []
-  (rd/render [my-app]
+  (rd/render [myapp]
              (.getElementById js/document "app")))
 
 
-(defn init! []
+(defn main []
   (reload))
-
-(init!)
